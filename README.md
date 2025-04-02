@@ -1,30 +1,40 @@
-# 🧠 OCD Patient Form GUI (Python + Tkinter)
+# 🧠 OCD Clinical Data Collection & Visualization Pipeline
 
-This is a graphical user interface (GUI) application designed for entering and validating clinical information from OCD (Obsessive-Compulsive Disorder) patients. Data is saved directly into a CSV file, with support for field validation, dropdown menus, and drag-and-drop file selection.
+This project showcases a complete data pipeline for OCD (Obsessive-Compulsive Disorder) patient data — from **data entry GUI**, to **CSV storage**, and **interactive dashboard visualization** using **Power BI**.
 
-## 🔧 Technologies Used
+---
 
-- Python `tkinter` (GUI development)
-- `tkinterDnD2` (drag and drop support)
-- `csv` for data storage
-- `datetime` for date validation
+## 📌 Components
 
-## ✨ Features
+### 1️⃣ Data Entry: Python GUI (Tkinter)
 
-- GUI form with multiple input types: Entry, Dropdowns, "Other" custom input
-- Drag-and-drop CSV path input using `tkinterDnD2`
-- Field validation (e.g., numeric input, date format, score range)
-- CSV saving with header auto-detection
-- User-friendly error popups and success messages
+- Built with `tkinter` and `tkinterDnD2`  
+- Allows structured input of patient information (age, gender, diagnosis date, symptoms, medications, etc.)
+- Features include:
+  - Form validation (age/date/score range)
+  - Custom input via "Other, please specify"
+  - Drag-and-drop CSV file path entry
+  - Instant save to CSV
 
-## 📸 Preview
+👉 File: [`GUI_main.py`](./GUI_main.py)
 
-![image](https://github.com/user-attachments/assets/33cca62f-302c-47e8-9e82-44a2b7de6c66)
+---
 
+### 2️⃣ Data Visualization: Power BI Dashboard
 
-## 🚀 How to Run
+- Analyzed and visualized collected patient data
+- Dashboard includes:
+  - Gender/Age/Diagnosis distribution
+  - Obsession vs Compulsion type mapping
+  - Medication breakdown
+  - Y-BOCS score trends and severity analysis
+  - Interactive filters (e.g. by education level, family history, etc.)
 
-1. Make sure you have Python installed
-2. Install tkinterDnD2:
-   ```bash
-   pip install tkinterdnd2
+👉 File: `OCD_dashboard.pbix`  
+
+---
+
+## 🚀 Future Work
+
+- Insight python data analysis towards the data
+
