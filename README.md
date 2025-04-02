@@ -30,7 +30,9 @@ This project showcases a complete data pipeline for OCD (Obsessive-Compulsive Di
   - Y-BOCS score trends and severity analysis
   - Interactive filters (e.g. by education level, family history, etc.)
 
-👉 File: `OCD_dashboard.pbix`  
+👉 File: `dashboard.pbix`  
+Preview:![image](https://github.com/user-attachments/assets/4dd27315-c93f-4e7a-b91e-5e389f2ede47)
+
 
 ---
 
